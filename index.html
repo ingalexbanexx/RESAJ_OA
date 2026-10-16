@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- =========================================================
+         RESAJ - Registro de Sanciones Administrativas y Judiciales
+         Documento principal de la interfaz pública.
+         ========================================================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registro de Sanciones Administrativas y Judiciales de la Oficina Anticorrupción de la Provincia de Jujuy.">
+    <title>Registro de Sanciones | Oficina Anticorrupción</title>
+
+    <!-- Tipografía principal del proyecto. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+    >
+
+    <!-- Iconos utilizados por la interfaz. -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+    <!-- Hoja de estilos propia del RESAJ. -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Contenedor raíz: limita los estilos al módulo RESAJ. -->
+    <main id="oa-registro-sanciones" class="resaj-app">
+        <div class="app-container">
+
+            <!-- =====================================================
+                 ENCABEZADO
+                 ===================================================== -->
+            <header class="app-header">
+                <div class="header-content">
+                    <div class="header-title">
+                        <span class="header-icon" aria-hidden="true">
+                            <i class="fa-solid fa-gavel"></i>
+                        </span>
+
+                        <div>
+                            <h1>Registro de Sanciones Administrativas y Judiciales</h1>
+                            <p>Consulta pública del Registro de Sanciones de la Oficina Anticorrupción.</p>
+                        </div>
+                    </div>
+
+                    <div class="header-contact">
+                        <p>Si requiere más información, contáctese con nosotros:</p>
+                        <a
+                            class="contact-button"
+                            href="https://oa.jujuy.gob.ar/contactanos.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                            <span>Contactarse con la Oficina Anticorrupción</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- =====================================================
+                 FILTROS Y BÚSQUEDA
+                 ===================================================== -->
+            <section class="controls-section" aria-label="Filtros de búsqueda">
+                <div class="controls-wrapper">
+
+                    <!-- Filtro principal: tipo de organismo. -->
+                    <div class="filter-group">
+                        <label for="organismoTipo">Organismo / Repartición</label>
+                        <select id="organismoTipo" class="filter-select">
+                            <option value="">Elija un Organismo</option>
+                            <option value="provincial">Gobierno Provincial</option>
+                            <option value="municipal">Municipios y Comunas</option>
+                        </select>
+                    </div>
+
+                    <!-- Filtro dependiente: repartición concreta. -->
+                    <div class="filter-group">
+                        <label for="reparticionFilter">Seleccionar Repartición</label>
+                        <select id="reparticionFilter" class="filter-select" disabled>
+                            <option value="">Primero seleccione un Organismo</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Buscador general sobre todos los campos del registro. -->
+                <div class="search-wrapper">
+                    <label for="searchInput">Buscar registros</label>
+
+                    <div class="search-box">
+                        <input
+                            type="search"
+                            id="searchInput"
+                            autocomplete="off"
+                            placeholder="Nombre, DNI, organismo, dictamen, sanción, fecha o resolución..."
+                            aria-describedby="searchHelp"
+                        >
+
+                        <button
+                            class="search-btn"
+                            id="searchBtn"
+                            type="button"
+                            title="Buscar"
+                            aria-label="Buscar"
+                        >
+                            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                        </button>
+                    </div>
+
+                    <div class="search-actions">
+                        <small id="searchHelp">La búsqueda se aplica automáticamente mientras escribe.</small>
+
+                        <button class="clear-btn" id="clearBtn" type="button">
+                            <i class="fa-solid fa-rotate-left" aria-hidden="true"></i>
+                            <span>Limpiar filtros</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =====================================================
+                 ESTADO / CONTADOR DE RESULTADOS
+                 ===================================================== -->
+            <div
+                class="results-info"
+                id="resultsCount"
+                role="status"
+                aria-live="polite"
+            >
+                Cargando registros...
+            </div>
+
+            <!-- Mensaje específico cuando una repartición no posee registros. -->
+            <div
+                class="no-results-message"
+                id="noResultsMessage"
+                role="status"
+                hidden
+            >
+                <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                <span>La repartición seleccionada aún no posee Registro de Sanciones.</span>
+            </div>
+
+            <!-- Mensaje general de error al cargar los datos. -->
+            <div
+                class="data-error-message"
+                id="dataErrorMessage"
+                role="alert"
+                hidden
+            >
+                <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+                <span>No fue posible cargar los datos del Registro. Verifique los archivos JSON o la conexión con el servidor.</span>
+            </div>
+
+            <!-- =====================================================
+                 TABLA PRINCIPAL
+                 ===================================================== -->
+            <div class="table-responsive">
+                <table id="dataTable">
+                    <caption class="sr-only">Registro de Sanciones Administrativas y Judiciales</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col" class="col-nombre">Nombre y Apellido</th>
+                            <th scope="col" class="col-dni">DNI</th>
+                            <th scope="col" class="col-organismo">Organismo / Repartición</th>
+                            <th scope="col" class="col-dictamen">Dictamen</th>
+                            <th scope="col" class="col-sancion">Tipo de Sanción</th>
+                            <th scope="col" class="col-fecha">Fecha</th>
+                            <th scope="col" class="col-resolucion">Resolución OA</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tableBody">
+                        <!-- Las filas se generan dinámicamente desde JavaScript. -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pie informativo para futuras ampliaciones del módulo. -->
+            <footer class="app-footer">
+                <span>RESAJ · Oficina Anticorrupción de la Provincia de Jujuy</span>
+            </footer>
+        </div>
+    </main>
+
+    <!-- JavaScript principal. Se carga al final para no bloquear el HTML. -->
+    <script src="script.js" defer></script>
+</body>
+</html>

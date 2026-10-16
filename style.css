@@ -1,0 +1,551 @@
+/* ================================================================
+   RESAJ - REGISTRO DE SANCIONES
+   Hoja de estilos principal
+
+   Objetivos:
+   - Mantener la identidad visual de la Oficina Anticorrupción.
+   - Evitar estilos inline en el HTML.
+   - Centralizar colores, tipografías y dimensiones.
+   - Mantener compatibilidad con Joomla y otros contenedores.
+   - Garantizar comportamiento responsive.
+   ================================================================ */
+
+/* ================================================================
+   1. VARIABLES DE DISEÑO
+   ================================================================ */
+:root {
+    --resaj-primary: #082032;
+    --resaj-secondary: #2c394b;
+    --resaj-accent: #fc4f46;
+    --resaj-accent-hover: #e03e36;
+    --resaj-neutral: #f3f4f5;
+
+    --resaj-white: #ffffff;
+    --resaj-text-muted: #a0aab5;
+    --resaj-border: rgba(255, 255, 255, 0.12);
+    --resaj-border-soft: rgba(255, 255, 255, 0.20);
+    --resaj-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+
+    --resaj-radius-sm: 5px;
+    --resaj-radius-md: 8px;
+    --resaj-radius-lg: 10px;
+
+    --resaj-font: 'Merriweather', Georgia, serif;
+}
+
+/* ================================================================
+   2. RESET LOCAL
+   Se limita al módulo para reducir conflictos con Joomla.
+   ================================================================ */
+#oa-registro-sanciones,
+#oa-registro-sanciones * {
+    box-sizing: border-box;
+}
+
+#oa-registro-sanciones button,
+#oa-registro-sanciones input,
+#oa-registro-sanciones select {
+    font: inherit;
+}
+
+#oa-registro-sanciones a {
+    text-decoration: none;
+}
+
+/* ================================================================
+   3. CONTENEDOR GENERAL
+   ================================================================ */
+#oa-registro-sanciones {
+    width: 100%;
+    padding: 20px;
+    color: var(--resaj-white);
+    font-family: var(--resaj-font);
+    background-color: var(--resaj-neutral);
+}
+
+#oa-registro-sanciones .app-container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: var(--resaj-primary);
+    border-radius: var(--resaj-radius-lg);
+    box-shadow: var(--resaj-shadow);
+}
+
+/* ================================================================
+   4. UTILIDAD DE ACCESIBILIDAD
+   Mantiene el texto disponible para lectores de pantalla sin
+   ocupar espacio visual.
+   ================================================================ */
+#oa-registro-sanciones .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ================================================================
+   5. ENCABEZADO
+   ================================================================ */
+#oa-registro-sanciones .app-header {
+    padding: 25px 30px;
+    background-color: var(--resaj-accent);
+}
+
+#oa-registro-sanciones .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#oa-registro-sanciones .header-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    min-width: 0;
+}
+
+#oa-registro-sanciones .header-icon {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: var(--resaj-accent);
+    background-color: var(--resaj-white);
+    border-radius: 50%;
+    font-size: 1.15rem;
+}
+
+#oa-registro-sanciones .app-header h1 {
+    margin: 0 0 7px;
+    color: var(--resaj-white);
+    font-size: 1.65rem;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+#oa-registro-sanciones .app-header p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 0.88rem;
+    line-height: 1.55;
+    font-weight: 300;
+}
+
+#oa-registro-sanciones .header-contact {
+    flex: 0 0 auto;
+    max-width: 390px;
+}
+
+#oa-registro-sanciones .header-contact p {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 0.78rem;
+}
+
+#oa-registro-sanciones .contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 15px;
+    color: var(--resaj-primary);
+    background-color: var(--resaj-white);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: var(--resaj-radius-sm);
+    font-size: 0.78rem;
+    font-weight: 700;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#oa-registro-sanciones .contact-button:hover,
+#oa-registro-sanciones .contact-button:focus-visible {
+    background-color: #f7f7f7;
+    transform: translateY(-1px);
+}
+
+/* ================================================================
+   6. ZONA DE CONTROLES
+   ================================================================ */
+#oa-registro-sanciones .controls-section {
+    padding: 25px 30px 15px;
+}
+
+#oa-registro-sanciones .controls-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+    padding: 20px;
+    background-color: var(--resaj-secondary);
+    border-radius: var(--resaj-radius-md);
+}
+
+#oa-registro-sanciones .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#oa-registro-sanciones .filter-group label,
+#oa-registro-sanciones .search-wrapper > label {
+    color: var(--resaj-white);
+    font-size: 0.78rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+/* ================================================================
+   7. SELECTS
+   ================================================================ */
+#oa-registro-sanciones .filter-select {
+    width: 100%;
+    min-height: 47px;
+    padding: 12px 15px;
+    color: var(--resaj-white);
+    background-color: var(--resaj-primary);
+    border: 1px solid var(--resaj-border);
+    border-radius: var(--resaj-radius-sm);
+    outline: none;
+    cursor: pointer;
+    font-size: 0.82rem;
+}
+
+#oa-registro-sanciones .filter-select:focus {
+    border-color: var(--resaj-accent);
+    box-shadow: 0 0 0 2px rgba(252, 79, 70, 0.18);
+}
+
+#oa-registro-sanciones .filter-select:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+/* ================================================================
+   8. BUSCADOR
+   ================================================================ */
+#oa-registro-sanciones .search-wrapper {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: var(--resaj-secondary);
+    border-radius: var(--resaj-radius-md);
+}
+
+#oa-registro-sanciones .search-wrapper > label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#oa-registro-sanciones .search-box {
+    display: flex;
+    width: 100%;
+}
+
+#oa-registro-sanciones .search-box input {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 47px;
+    padding: 12px 15px;
+    color: var(--resaj-white);
+    background-color: var(--resaj-primary);
+    border: 1px solid var(--resaj-border);
+    border-right: 0;
+    border-radius: var(--resaj-radius-sm) 0 0 var(--resaj-radius-sm);
+    outline: none;
+    font-size: 0.82rem;
+}
+
+#oa-registro-sanciones .search-box input:focus {
+    border-color: var(--resaj-accent);
+    box-shadow: inset 0 0 0 1px var(--resaj-accent);
+}
+
+#oa-registro-sanciones .search-box input::placeholder {
+    color: var(--resaj-text-muted);
+}
+
+#oa-registro-sanciones .search-btn {
+    flex: 0 0 55px;
+    min-height: 47px;
+    border: 0;
+    color: var(--resaj-white);
+    background-color: var(--resaj-accent);
+    border-radius: 0 var(--resaj-radius-sm) var(--resaj-radius-sm) 0;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+#oa-registro-sanciones .search-btn:hover,
+#oa-registro-sanciones .search-btn:focus-visible {
+    background-color: var(--resaj-accent-hover);
+}
+
+#oa-registro-sanciones .search-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#oa-registro-sanciones .search-actions small {
+    color: var(--resaj-text-muted);
+    font-size: 0.68rem;
+    line-height: 1.5;
+}
+
+#oa-registro-sanciones .clear-btn {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 15px;
+    color: var(--resaj-white);
+    background-color: transparent;
+    border: 1px solid var(--resaj-border-soft);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.74rem;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+#oa-registro-sanciones .clear-btn:hover,
+#oa-registro-sanciones .clear-btn:focus-visible {
+    background-color: rgba(255, 255, 255, 0.10);
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* ================================================================
+   9. ESTADOS Y MENSAJES
+   ================================================================ */
+#oa-registro-sanciones .results-info {
+    min-height: 32px;
+    padding: 5px 30px 15px;
+    color: var(--resaj-text-muted);
+    font-size: 0.80rem;
+}
+
+#oa-registro-sanciones .no-results-message,
+#oa-registro-sanciones .data-error-message {
+    align-items: center;
+    gap: 12px;
+    margin: 0 30px 20px;
+    padding: 17px 18px;
+    border-radius: var(--resaj-radius-sm);
+    font-size: 0.78rem;
+    line-height: 1.5;
+}
+
+#oa-registro-sanciones .no-results-message {
+    color: var(--resaj-white);
+    background-color: var(--resaj-secondary);
+    border-left: 4px solid var(--resaj-accent);
+}
+
+#oa-registro-sanciones .data-error-message {
+    color: var(--resaj-white);
+    background-color: #5c2d2a;
+    border-left: 4px solid var(--resaj-accent);
+}
+
+#oa-registro-sanciones .no-results-message:not([hidden]),
+#oa-registro-sanciones .data-error-message:not([hidden]) {
+    display: flex;
+}
+
+#oa-registro-sanciones .no-results-message i,
+#oa-registro-sanciones .data-error-message i {
+    flex: 0 0 auto;
+    color: var(--resaj-accent);
+    font-size: 1.1rem;
+}
+
+/* ================================================================
+   10. TABLA
+   ================================================================ */
+#oa-registro-sanciones .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#oa-registro-sanciones table {
+    width: 100%;
+    min-width: 1100px;
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: fixed;
+}
+
+#oa-registro-sanciones thead {
+    background-color: var(--resaj-accent);
+}
+
+#oa-registro-sanciones th {
+    padding: 15px;
+    color: var(--resaj-white);
+    font-size: 0.70rem;
+    line-height: 1.35;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    vertical-align: middle;
+}
+
+#oa-registro-sanciones td {
+    padding: 14px 15px;
+    color: var(--resaj-white);
+    font-size: 0.74rem;
+    line-height: 1.55;
+    border-bottom: 1px solid var(--resaj-secondary);
+    vertical-align: top;
+    overflow-wrap: anywhere;
+}
+
+#oa-registro-sanciones tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+#oa-registro-sanciones tbody tr:hover {
+    background-color: var(--resaj-secondary);
+}
+
+/* Anchos relativos de las siete columnas. */
+#oa-registro-sanciones .col-nombre { width: 18%; }
+#oa-registro-sanciones .col-dni { width: 9%; }
+#oa-registro-sanciones .col-organismo { width: 20%; }
+#oa-registro-sanciones .col-dictamen { width: 15%; }
+#oa-registro-sanciones .col-sancion { width: 13%; }
+#oa-registro-sanciones .col-fecha { width: 9%; }
+#oa-registro-sanciones .col-resolucion { width: 16%; }
+
+/* Identificador visual del DNI. */
+#oa-registro-sanciones .dni-badge {
+    display: inline-block;
+    padding: 4px 9px;
+    color: var(--resaj-white);
+    background-color: var(--resaj-accent);
+    border-radius: 12px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Fila utilizada cuando no existen resultados. */
+#oa-registro-sanciones .empty-table {
+    padding: 35px 20px;
+    color: var(--resaj-text-muted);
+    text-align: center;
+    font-size: 0.80rem;
+}
+
+/* ================================================================
+   11. PIE
+   ================================================================ */
+#oa-registro-sanciones .app-footer {
+    padding: 14px 30px;
+    color: var(--resaj-text-muted);
+    background-color: var(--resaj-primary);
+    border-top: 1px solid var(--resaj-secondary);
+    font-size: 0.65rem;
+    text-align: right;
+}
+
+/* ================================================================
+   12. RESPONSIVE - TABLET
+   ================================================================ */
+@media (max-width: 1000px) {
+    #oa-registro-sanciones .header-content {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #oa-registro-sanciones .header-contact {
+        max-width: none;
+    }
+
+    #oa-registro-sanciones .controls-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ================================================================
+   13. RESPONSIVE - MÓVIL
+   ================================================================ */
+@media (max-width: 768px) {
+    #oa-registro-sanciones {
+        padding: 10px;
+    }
+
+    #oa-registro-sanciones .app-header {
+        padding: 20px;
+    }
+
+    #oa-registro-sanciones .app-header h1 {
+        font-size: 1.20rem;
+    }
+
+    #oa-registro-sanciones .app-header p {
+        font-size: 0.76rem;
+    }
+
+    #oa-registro-sanciones .controls-section {
+        padding: 15px;
+    }
+
+    #oa-registro-sanciones .controls-wrapper,
+    #oa-registro-sanciones .search-wrapper {
+        padding: 15px;
+    }
+
+    #oa-registro-sanciones .search-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    #oa-registro-sanciones .clear-btn {
+        width: 100%;
+    }
+
+    #oa-registro-sanciones .results-info {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #oa-registro-sanciones .no-results-message,
+    #oa-registro-sanciones .data-error-message {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #oa-registro-sanciones .app-footer {
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+    }
+}
+
+/* ================================================================
+   14. REDUCCIÓN DE ANIMACIONES
+   Respeta la preferencia de accesibilidad del navegador.
+   ================================================================ */
+@media (prefers-reduced-motion: reduce) {
+    #oa-registro-sanciones *,
+    #oa-registro-sanciones *::before,
+    #oa-registro-sanciones *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}

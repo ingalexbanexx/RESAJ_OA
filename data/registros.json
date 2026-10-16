@@ -1,0 +1,301 @@
+[
+{
+   "nombre": "ARZE, ANTONIO ANÍBAL",
+    "dni": "30.765.255",
+    "organismo": "MINISTERIO DE SEGURIDAD",
+    "dictamen": "DECRETO 2860-MS/2025",
+    "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+    "fecha": "03/18/2025",
+    "resolucion": "111-OA/2026"
+  },
+  
+  {
+        "nombre": "MARIACA, CARLOS EMANUEL",
+        "dni": "33.681.245",
+        "organismo": "MINISTERIO DE SEGURIDAD",
+        "dictamen": "DECRETO 2862-MS/2025",
+        "sancion": "DESTITUCIÓN EN MODALIDAD DE EXONERACIÓN",
+        "fecha": "03/18/2025",
+        "resolucion": "112-OA/2026"
+    },
+    {
+        "nombre": "ALEJO, CRISTIAN ALVARO",
+        "dni": "33.572.443",
+        "organismo": "MINISTERIO DE SEGURIDAD",
+        "dictamen": "DECRETO 2861-MS/2025",
+        "sancion": "DESTITUCIÓN EN MODALIDAD DE EXONERACIÓN",
+        "fecha": "03/18/2025",
+        "resolucion": "113-OA/2026"
+    },
+
+    {
+        "nombre": "TORRES, JUAN CARLOS",
+        "dni": "28.182.905",
+        "organismo": "MUNICIPALIDAD DE FRAILE PINTADO",
+        "dictamen": "RESOLUCIÓN 136-OA/2026",
+        "sancion": "CONDENA DE 4 MESES DE PRISIÓN DE EJECUCIÓN CONDICIONAL E INHABILITACIÓN ESPECIAL PERPETUA",
+        "fecha": "27/05/2026",
+        "resolucion": "136-OA/2026"
+    },
+    {
+        "nombre": "GUTIERREZ CAÑAS, CARLOS AMÉRICO",
+        "dni": "18.540.468",
+        "organismo": "OFICINA ANTICORRUPCIÓN DE JUJUY",
+        "dictamen": "RESOLUCIÓN 026-OA/2026",
+        "sancion": "SUSPENSIÓN POR TÉRMINO DE 5 DÍAS",
+        "fecha": "06/02/2026",
+        "resolucion": "026-OA/2026"
+    },
+{
+     "nombre": "BELEIZAN, GUILLERMO ARIEL",
+     "dni": "29.915.130",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2845-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE EXONERACIÓN",
+     "fecha": "03/18/2025",
+     "resolucion": "118-OA/2026"
+    },
+    {
+     "nombre": "IRADES, MIRTA BEATRIZ",
+     "dni": "12.006.672",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 2688-E/2025",
+     "sancion": "SANCIÓN EXPULSIVA DE CESANTÍA",
+     "fecha": "01/28/2025",
+     "resolucion": "119-OA/2026"
+    },
+    {
+     "nombre": "BARRIONUEVO, MATÍAS JOSÉ",
+     "dni": "31.687.054",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2854-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "121-OA/2026"
+    },
+    {
+     "nombre": "MAMANÍ, ALEJANDRO DE JESÚS",
+     "dni": "31.816.992",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2855-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "122-OA/2026"
+    },
+    {
+     "nombre": "GOMEZ, ALBERTO GONZALO ",
+     "dni": "33.565.220",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2856-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE EXONERACIÓN",
+     "fecha": "03/18/2025",
+     "resolucion": "123-OA/2026"
+    },
+    {
+     "nombre": "ORTEGA, FRANCO EMANUEL",
+     "dni": "33.482.879",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2857-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE EXONERACIÓN",
+     "fecha": "03/18/2025",
+     "resolucion": "124-OA/2026"
+    },
+    {
+     "nombre": "AJALLA, VÍCTOR WALTER",
+     "dni": "32.082.778",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2858-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE EXONERACIÓN",
+     "fecha": "03/18/2025",
+     "resolucion": "125-OA/2026"
+    },
+    {
+     "nombre": "AGUILAR, FRANCO MIGUEL",
+     "dni": "32.210.745",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2859-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "126-OA/2026"
+    },
+    {
+     "nombre": "GONZALEZ, EZEQUIEL LUCAS DAMIAN",
+     "dni": "36.508.752",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2860-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "127-OA/2026"
+    },
+    {
+     "nombre": "SOTO, JAIRO GASTÓN",
+     "dni": "32.215.750",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2869-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "128-OA/2026"
+    },
+    {
+     "nombre": "HERRERA, DANIEL ALEJANDRO",
+     "dni": "30.726.576",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2870-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "129-OA/2026"
+    },
+   {
+     "nombre": "SANTOS, MIGUEL ROLANDO",
+     "dni": "25.287.085",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2852-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "120-OA/2026"
+    },
+   {
+     "nombre": "SARAPURA, CRISTIAN DANTE",
+     "dni": "36.857.523",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2870-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "130-OA/2026"
+    },
+   {
+     "nombre": "GASPAR, EDGARDO SANTIAGO",
+     "dni": "32.408.987",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2870-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "131-OA/2026"
+    },
+   {
+     "nombre": "CASTILLO, GONZALO",
+     "dni": "32.607.677",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2870-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "132-OA/2026"
+    },
+   {
+     "nombre": "BALDERRAMA, LUIS ALFREDO",
+     "dni": "35.932.247",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2870-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "133-OA/2026"
+    },
+   {
+     "nombre": "SARAPURA, CRISTIAN DANTE",
+     "dni": "36.857.523",
+     "organismo": "MINISTERIO DE SEGURIDAD",
+     "dictamen": "DECRETO 2870-MS/2025",
+     "sancion": "DESTITUCIÓN EN MODALIDAD DE CESANTÍA",
+     "fecha": "03/18/2025",
+     "resolucion": "134-OA/2026"
+    },
+   {
+     "nombre": "BARROS, MARIANO AGUSTIN",
+     "dni": "20.811.122",
+     "organismo": "DIREC. GRAL DE INMUEBLES",
+     "dictamen": "DECRETO 3788-HF/2025",
+     "sancion": "SANCION DE EXONERACION",
+     "fecha": "25/08/2025",
+     "resolucion": "135-OA/2026"
+    },
+   {
+     "nombre": "ALVAREZ, RITA DEL VALLE",
+     "dni": "30.029.299",
+     "organismo": "SEC. DE ORD. TERRITORIAL",
+     "dictamen": "DECRETO 2026-ISPTyV.25",
+     "sancion": "SANCION DE EXONERACION",
+     "fecha": "10/03/2025",
+     "resolucion": "158-OA/2026"
+    },
+   {
+     "nombre": "VASQUEZ, BEATRIZ EUSEBIA",
+     "dni": "17.451.875",
+     "organismo": "MINISTERIO DES. HUMANO",
+     "dictamen": "DECRETO 2826-ISTPyV",
+     "sancion": "SANCIÓN CORRECTIVA DE SUSPENSIÓN",
+     "fecha": "10/03/2025",
+     "resolucion": "159-OA/2026"
+    },
+   {
+     "nombre": "ÁLVAREZ, ALDO NORBERTO",
+     "dni": "26.253.480",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 2952-E/2025",
+     "sancion": "SANCIÓN EXPULSIVA DE CESANTÍA",
+     "fecha": "03/04/2025",
+     "resolucion": "174-OA/2026"
+    },
+   {
+     "nombre": "VALDIVIEZO, MARIANA LORENA PAULA",
+     "dni": "31.397.514",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 3318-E/2025",
+     "sancion": "SANCIÓN EXPULSIVA DE CESANTÍA",
+     "fecha": "04/06/2025",
+     "resolucion": "175-OA/2026"
+    },
+   {
+     "nombre": "BÁRCENA, LILIANA DEL ROSARIO",
+     "dni": "17.081.534",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 3318-E/2025",
+     "sancion": "20 DÍAS DE SUSPENSIÓN SIN PRESTACIÓN DE SERVICIOS NI PERCEPCIÓN DE HABERES",
+     "fecha": "04/06/2025",
+     "resolucion": "173-OA/2026"
+    },
+   {
+     "nombre": "SOLIS, JESÚS DIONISIO",
+     "dni": "20.687.930",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 3896-E/2025",
+     "sancion": "SANCIÓN EXPULSIVA DE CESANTÍA",
+     "fecha": "15/09/2025",
+     "resolucion": "172-OA/2026"
+    },
+   {
+     "nombre": "ROTONDO, GABRIELA OFELIA",
+     "dni": "22.874.386",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 3893-E/2025",
+     "sancion": "SANCIÓN EXPULSIVA DE CESANTÍA",
+     "fecha": "15/09/2025",
+     "resolucion": "176-OA/2026"
+    },
+   {
+     "nombre": "RUIZ, CLAUDIA NATALIA",
+     "dni": "24.399.398",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 3476-E/2025",
+     "sancion": "SANCIÓN EXPULSIVA DE CESANTÍA",
+     "fecha": "08/07/2025",
+     "resolucion": "177-OA/2026"
+    },
+   {
+     "nombre": "TREJO, WILFREDO",
+     "dni": "30.623.652",
+     "organismo": "MINISTERIO DE SALUD",
+     "dictamen": "DECRETO 4498-S-2025",
+     "sancion": "SANCIÓN EXPULSIVA DE EXONERACIÓN",
+     "fecha": "15/12/2025",
+     "resolucion": "211-OA/2026"
+    },
+   {
+     "nombre": "GARCÍA, SIRIA CRISTINA",
+     "dni": "17.168.941",
+     "organismo": "MINISTERIO DE EDUCACIÓN",
+     "dictamen": "DECRETO 4776-E-2025",
+     "sancion": "SANCIÓN EXPULSIVA DE CESANTÍA",
+     "fecha": "19/12/2025",
+     "resolucion": "212-OA/2026"
+    }
+]

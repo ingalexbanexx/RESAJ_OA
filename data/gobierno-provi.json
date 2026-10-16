@@ -1,0 +1,138 @@
+[
+    {
+        "ORDEN":1,
+        "Organismo Provincial":"JEFATURA DE GABINETE"
+    },
+    {
+        "ORDEN":2,
+        "Organismo Provincial":"MINISTERIO DE GOBIERNO, JUSTICIA, DERECHOS HUMANOS Y TRABAJO"
+    },
+    {
+        "ORDEN":3,
+        "Organismo Provincial":"MINISTERIO DE HACIENDA Y FINANZAS"
+    },
+    {
+        "ORDEN":4,
+        "Organismo Provincial":"MINISTERIO DE DESARROLLO ECONÓMICO Y PRODUCCIÓN"
+    },
+    {
+        "ORDEN":5,
+        "Organismo Provincial":"MINISTERIO DE INFRAESTRUCTURA, SERVICIOS PÚBLICOS, TIERRA Y VIVIENDA"
+    },
+    {
+        "ORDEN":6,
+        "Organismo Provincial":"MINISTERIO DE SALUD"
+    },
+    {
+        "ORDEN":7,
+        "Organismo Provincial":"MINISTERIO DE DESARROLLO HUMANO"
+    },
+    {
+        "ORDEN":8,
+        "Organismo Provincial":"MINISTERIO DE EDUCACIÓN"
+    },
+    {
+        "ORDEN":9,
+        "Organismo Provincial":"MINISTERIO DE CULTURA Y TURISMO"
+    },
+    {
+        "ORDEN":10,
+        "Organismo Provincial":"MINISTERIO DE AMBIENTE Y CAMBIO CLIMÁTICO"
+    },
+    {
+        "ORDEN":11,
+        "Organismo Provincial":"MINISTERIO DE SEGURIDAD"
+    },
+    {
+        "ORDEN":12,
+        "Organismo Provincial":"MINISTERIO DE PLANIFICACIÓN ESTRATÉGICA Y MODERNIZACIÓN"
+    },
+    {
+        "ORDEN":13,
+        "Organismo Provincial":"MINISTERIO DE MINERÍA"
+    },
+    {
+        "ORDEN":14,
+        "Organismo Provincial":"GOBERNACIÓN"
+    },
+    {
+        "ORDEN":15,
+        "Organismo Provincial":"LEGISLATURA DE LA PROVINCIA DE JUJUY"
+    },
+    {
+        "ORDEN":16,
+        "Organismo Provincial":"PODER JUDICIAL DE LA PROVINCIA DE JUJUY"
+    },
+    {
+        "ORDEN":17,
+        "Organismo Provincial":"AGUA POTABLE DE JUJUY S.E."
+    },
+    {
+        "ORDEN":18,
+        "Organismo Provincial":"SUPERINTENDENCIA DE SERVICIOS PUBLICOS Y OTRAS CONCESIONES - SU.SE.PU."
+    },
+    {
+        "ORDEN":19,
+        "Organismo Provincial":"INSTITUTO DE SEGUROS DE JUJUY"
+    },
+    {
+        "ORDEN":20,
+        "Organismo Provincial":"INSTITUTO JUJEÑO DE ENERGIAS RENOVABLES Y EFICIENCIA ENERGÉTICA"
+    },
+    {
+        "ORDEN":21,
+        "Organismo Provincial":"INSTITUTO DE ARTES AUDIOVISUALES DE JUJUY"
+    },
+    {
+        "ORDEN":22,
+        "Organismo Provincial":"ENTE AUTÁRQUICO TREN SOLAR DE LA QUEBRADA"
+    },
+    {
+        "ORDEN":23,
+        "Organismo Provincial":"AGENCIA DE DESARROLLO DE JUJUY S.E."
+    },
+    {
+        "ORDEN":24,
+        "Organismo Provincial":"DEFENSORÍA DEL PUEBLO"
+    },
+    {
+        "ORDEN":25,
+        "Organismo Provincial":"INSTITUTO DE VIVIENDA Y URBANISMO DE JUJUY"
+    },
+    {
+        "ORDEN":26,
+        "Organismo Provincial":"JUJUY ENERGÍA Y MINERÍA S.E. (JEMSE)"
+    },
+    {
+        "ORDEN":27,
+        "Organismo Provincial":"CANNAVA  S.E."
+    },
+    {
+        "ORDEN":28,
+        "Organismo Provincial":"INSTITUTO PROVINCIAL DE JUEGOS DE AZAR (INPROJUY)"
+    },
+    {
+        "ORDEN":29,
+        "Organismo Provincial":"GIRSU JUJUY S.E."
+    },
+    {
+        "ORDEN":30,
+        "Organismo Provincial":"AUDITORIA GENERAL DE LA PROVINCIA"
+    },
+    {
+        "ORDEN":31,
+        "Organismo Provincial":"MINISTERIO PÚBLICO DE LA ACUSACIÓN"
+    },
+    {
+        "ORDEN":32,
+        "Organismo Provincial":"MINISTERIO PÚBLICO DE LA DEFENSA"
+    },
+    {
+        "ORDEN":33,
+        "Organismo Provincial":"DEFENSORIA DE LOS DERECHOS DE NIÑOS, NIÑAS Y ADOLESCENTES"
+    },
+    {
+        "ORDEN":34,
+        "Organismo Provincial":"COMITÉ PROVINCIAL PARA LA PREVENCIÓN DE LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANOS O DEGRADANTES"
+    }
+]

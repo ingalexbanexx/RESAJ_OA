@@ -1,0 +1,267 @@
+[
+  {
+    "orden": "1",
+    "nombre": "COMUNA DE ABRALAITE"
+  },
+  {
+    "orden": "2",
+    "nombre": "COMUNA DE ARRAYANAL"
+  },
+  {
+
+"orden":"1",	
+"nombre":"COMUNA DE ABRALAITE"
+  },     
+  {
+  "orden":"2",
+  "nombre":"COMUNA DE ARRAYANAL" 
+  },  
+  {
+    "orden":"3",
+    "nombre":"COMUNA DE BARRANCAS+B4:B47"
+  },
+  {
+    "orden":"4",
+    "nombre":"COMUNA DE BARRIOS"
+  },
+  {
+    "orden":"5",
+    "nombre":"COMUNA DE CANGREJILLOS"
+  },
+  {
+    "orden":"6",
+    "nombre":"COMUNA DE CASPALA"
+  },
+  {
+    "orden":"7",
+    "nombre":"COMUNA DE CATUA"
+  },
+  {
+    "orden":"8",
+    "nombre":"COMUNA DE CIENEGUILLAS"
+  },
+  {
+    "orden":"9",
+    "nombre":"COMUNA DE CORANZULI"
+  },
+  {
+    "orden":"10",
+    "nombre":"COMUNA DE CUSI-CUSI"
+  },
+  {
+    "orden":"11",
+    "nombre":"COMUNA DE EL CÓNDOR"
+  },
+  {
+    "orden":"12",
+    "nombre":"COMUNA DE EL FUERTE"
+  },
+  {
+    "orden":"13",
+    "nombre":"COMUNA DE EL MORENO"
+  },
+  {
+    "orden":"14",
+    "nombre":"COMUNA DE EL PIQUETE"
+  },
+  {
+    "orden":"15",
+    "nombre":"COMUNA DE HIPÓLITO YRIGOYEN"
+  },
+  {
+    "orden":"16",
+    "nombre":"COMUNA DE HUACALERA"
+  },
+  {
+    "orden":"17",
+    "nombre":"COMUNA DE JAMA"
+  },
+  {
+    "orden":"18",
+    "nombre":"COMUNA DE MINA PIRQUITAS"
+  },
+  {
+    "orden":"19",
+    "nombre":"COMUNA DE PALCA DE APARZO"
+  },
+  {
+    "orden":"20",
+    "nombre":"COMUNA DE PAMPICHUELA"
+  },
+  {
+    "orden":"21",
+    "nombre":"COMUNA DE PUESTO DEL MARQUÉS"
+  },
+  {
+    "orden":"22",
+    "nombre":"COMUNA DE PUMAHUASI"
+  },
+  {
+    "orden":"23",
+    "nombre":"COMUNA DE RINCONADA"
+  },
+  {
+    "orden":"24",
+    "nombre":"COMUNA DE RODEITO"
+  },
+  {
+    "orden":"25",
+    "nombre":"COMUNA DE ROSARIO DE RIO GRANDE"
+  },
+  {
+    "orden":"26",
+    "nombre":"COMUNA DE SAN FRANCISCO"
+  },
+  {
+    "orden":"27",
+    "nombre":"COMUNA DE SANTA ANA"
+  },
+  {
+    "orden":"28",
+    "nombre":"COMUNA DE SANTA CATALINA"
+  },
+  {
+    "orden":"29",
+    "nombre":"COMUNA DE SUSQUES"
+  },
+  {
+    "orden":"30",
+    "nombre":"COMUNA DE TRES CRUCES"
+  },
+  {
+    "orden":"31",
+    "nombre":"COMUNA DE TUMBAYA"
+  },
+  {
+    "orden":"32",
+    "nombre":"COMUNA DE UQUÍA"
+  },
+  {
+    "orden":"33",
+    "nombre":"COMUNA DE VALLE GRANDE"
+  },
+  {
+    "orden":"34",
+    "nombre":"COMUNA DE VINALITO"
+  },
+  {
+    "orden":"35",
+    "nombre":"COMUNA DE VOLCÁN"
+  },
+  {
+    "orden":"36",
+    "nombre":"COMUNA DE YAVI"
+  },
+  {
+    "orden":"37",
+    "nombre":"MUNICIPALIDAD DE ABRA PAMPA"
+  },
+  {
+    "orden":"38",
+    "nombre":"MUNICIPALIDAD DE AGUAS CALIENTES"
+  },
+  {
+    "orden":"39",
+    "nombre":"MUNICIPALIDAD DE CAIMANCITO"
+  },
+  {
+    "orden":"40",
+    "nombre":"MUNICIPALIDAD DE CALILEGUA"
+  },
+  {
+    "orden":"41",
+    "nombre":"MUNICIPALIDAD DE EL AGUILAR"
+  },
+  {
+    "orden":"42",
+    "nombre":"MUNICIPALIDAD DE EL CARMEN"
+  },
+  {
+    "orden":"43",
+    "nombre":"MUNICIPALIDAD DE EL TALAR"
+  },
+  {
+    "orden":"44",
+    "nombre":"MUNICIPALIDAD DE FRAILE PINTADO"
+  },
+  {
+    "orden":"45",
+    "nombre":"MUNICIPALIDAD DE HUMAHUACA"
+  },
+  {
+    "orden":"46",
+    "nombre":"MUNICIPALIDAD DE LA ESPERANZA"
+  },
+  {
+    "orden":"47",
+    "nombre":"MUNICIPALIDAD DE LA MENDIETA"
+  },
+  {
+    "orden":"48",
+    "nombre":"MUNICIPALIDAD DE LA QUIACA"
+  },
+  {
+    "orden":"49",
+    "nombre":"MUNICIPALIDAD DE LIBERTADOR GRAL. SAN MARTIN"
+  },
+  {
+    "orden":"50",
+    "nombre":"MUNICIPALIDAD DE MAIMARA"
+  },
+  {
+    "orden":"51",
+    "nombre":"MUNICIPALIDAD DE MONTERRICO"
+  },
+  {
+    "orden":"52",
+    "nombre":"MUNICIPALIDAD DE PALMA SOLA"
+  },
+  {
+    "orden":"53",
+    "nombre":"MUNICIPALIDAD DE PALPALA"
+  },
+  {
+    "orden":"54",
+    "nombre":"MUNICIPALIDAD DE PAMPA BLANCA"
+  },
+  {
+    "orden":"55",
+    "nombre":"MUNICIPALIDAD DE PERICO"
+  },
+  {
+    "orden":"56",
+    "nombre":"MUNICIPALIDAD DE PUESTO VIEJO"
+  },
+  {
+    "orden":"57",
+    "nombre":"MUNICIPALIDAD DE PURMAMARCA"
+  },
+  {
+    "orden":"58",
+    "nombre":"MUNICIPALIDAD DE SAN ANTONIO"
+  },
+  {
+    "orden":"59",
+    "nombre":"MUNICIPALIDAD DE SAN PEDRO DE JUJUY"
+  },
+  {
+    "orden":"60",
+    "nombre":"MUNICIPALIDAD DE SAN SALVADOR DE JUJUY"
+  },
+  {
+    "orden":"61",
+    "nombre":"MUNICIPALIDAD DE SANTA CLARA"
+  },
+  {
+    "orden":"62",
+    "nombre":"MUNICIPALIDAD DE TILCARA"
+  },
+  {
+    "orden":"63",
+    "nombre":"MUNICIPALIDAD DE YALA"
+  },
+  {
+    "orden":"64",
+    "nombre":"MUNICIPALIDAD DE YUTO"
+  }
+]
